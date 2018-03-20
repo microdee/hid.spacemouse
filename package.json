@@ -1,0 +1,33 @@
+{
+  "name": "hid.spacemouse",
+  "version": "0.1.0",
+  "description": "HID based abstraction layer for 3DConnexion space mice (no need for 3DXWare bloatware)",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microdee/hid.spacemouse.git"
+  },
+  "keywords": [
+    "spacemouse",
+    "spacenavigator",
+    "spacepilot",
+    "3dconnexion",
+    "hid"
+  ],
+  "author": "microdee",
+  "license": "(MIT OR Apache-2.0)",
+  "bugs": {
+    "url": "https://github.com/microdee/hid.spacemouse/issues"
+  },
+  "homepage": "https://github.com/microdee/hid.spacemouse#readme",
+  "dependencies": {
+    "node-hid": "^0.7.2"
+  },
+  "devDependencies": {
+    "@types/node": "^9.4.7",
+    "@types/node-hid": "^0.5.2"
+  }
+}
