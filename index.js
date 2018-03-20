@@ -26,14 +26,14 @@ class spaceMouse
             switch (data[0])
             {
                 case 1:
-                    this.translate.x = joinInt16(data[1], data[2]);
-                    this.translate.y = joinInt16(data[3], data[4]);
-                    this.translate.z = joinInt16(data[5], data[6]);
+                    this.translate.x = joinInt16(data[1], data[2]) / 350;
+                    this.translate.y = joinInt16(data[3], data[4]) / 350;
+                    this.translate.z = joinInt16(data[5], data[6]) / 350;
                     break;
                 case 2:
-                    this.rotate.x = joinInt16(data[1], data[2]);
-                    this.rotate.y = joinInt16(data[3], data[4]);
-                    this.rotate.z = joinInt16(data[5], data[6]);
+                    this.rotate.x = joinInt16(data[1], data[2]) / 350;
+                    this.rotate.y = joinInt16(data[3], data[4]) / 350;
+                    this.rotate.z = joinInt16(data[5], data[6]) / 350;
                     break;
                 case 3:
                     data.slice(1, 7).forEach((buttonbyte, i) => {
