@@ -32,3 +32,6 @@ spaceMice manages an array of spaceMouse devices which looks like:
 }
 ```
 that's it.
+
+14th of April 2023: 
+Tried to update the dependencies to make it easier to use.
